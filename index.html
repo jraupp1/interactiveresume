@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Interactive Resume</title>
+
+<!-- Things to do... Center the webpage, get navbar working, add social media buttons,
+    get contact box to send data, make link to website in Chinese  -->
+        <html lang="en">
+                <head> <style type="text/css">.drbiwpfdjqipj 
+                { position: absolute; z-index: 10000; width: 12px; height: 12px; 
+                left: 1px; top: 1px; 
+                background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdhJREFUeNpUUs9rE0EU%2FmZ2Z1VCSV2JCYKWxoKtxUMvLQiipf6o1EPx4jV%2FgL16EZQWvHjuHyCCFKH0LkgVPYhSQRpEsYQaaWnSrOmu%2BbE%2FZmfHmSWBdOANb773vTfv8T2CgbO88owU3mzazP03qd88O%2FS9Nj%2FXfPrksexzSN9Znb5uD%2FPg0ehYoZSbGEuxxo8KfldqL44oe%2F5w62NTY7RX2WKH9Y1x4pemrk2guHgXxfv3MHVjEpeMoMSazkvFYZpr6DaGXq%2BXLrbcBzkaw4h9GIGDpPoTna1tJH9qEC3%2FXKuy61xdWvqmf2BWGC6ckQImNWCGAUjjIDUW%2BmAwkIMAi6IFxTVNdZ1gkDajRIUI6EEbgiYqRED2uwpTFVVMc5Rr6QQEyoSUEHGMiAskjTCdTgYxYh5DJAl809Q06ITQy%2Bc%2FuN32%2BOncMJLzeQgrnQ9JGAF7h2h2OFq2%2FUVBkU7g8s6ttfKas3ihOHr25PQVGJlTqrxE3OnC%2FVzG9t%2BwLudvv1Lc2Hj%2FbhOzs3OeXyhU9%2Ffql8VRYEuagedx%2FCpX8Mlp77gzM8s0k%2FmqBBRkQGXdR5FXqzcTz0uVo9nsDhsZeavcXUXmx5Tur0ZvLqsHRbqNwdX4L8AAS0HI54qEg3wAAAAASUVORK5CYII%3D) top left no-repeat;}    #zhujeqkar {       display:none;       color:#111;       background:#ffffff;       text-align:center;       border-bottom: 1px solid #666;       z-index:10000;       position:fixed;       width:100%;       top:0;    }    #zresrmkjbgd {       display:none;       color:#111;       background:#fff;       border-right: 1px solid #666;       z-index:10000;       position:fixed;       height:100%;       left:0;    }    #sqsfrnlrbg {       display:none;       color:#111;       background:#fff;       border-left: 1px solid #666;       z-index:10000;       position:fixed;       height:100%;       right:0;    }    #wnvceirq {       display:none;       color:#111;       background:#ffffff;       text-align:center;       border-top: 1px solid #666;       z-index:10000;       position:fixed;       width:100%;       bottom:0;    }    #jawyagejuqsoke {    }    #gkjmixxtf { bottom: 0; position: fixed; margin: 10px; padding: 0; z-index: 10000; border:  none; border-radius: 0px; box-shadow: 7px 7px 10px #666;}    #zhujeqkar {       display:none;       color:#111;       background:#000;       text-align:center;       border-bottom: none;       z-index:10000;       position:fixed;       width:100%;       top:0;    }.drbiwpfdjqipj { position: absolute; z-index: 10000; width: 24px; height: 24px; left: -8px; top: -8px;background: transparent url(data:image/png;base64,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)top left no-repeat;}</style><script language="JavaScript" type="text/javascript">  var c = 0;  function waitForPageRender() {    c = c + 1;    var t=setTimeout("checkVisible(false)",500);  }  function checkVisible(forceDisable) {    var footer, header, leftbar, rightbar, content;    var display = 'inline';    if(document.all) {        footer = document.all.wnvceirq;        header = document.all.zhujeqkar;        leftbar = document.all.zresrmkjbgd;        rightbar = document.all.sqsfrnlrbg;        content = document.all.jawyagejuqsoke;    } else if(document.getElementById) {        footer = document.getElementById('wnvceirq');        header = document.getElementById('zhujeqkar');        leftbar = document.getElementById('zresrmkjbgd');        rightbar = document.getElementById('sqsfrnlrbg');        content = document.getElementById('jawyagejuqsoke');    }    if (content && (content.offsetWidth < 300 || content.offsetHeight <= 480)) {      display = 'none';    }    if (forceDisable == true || c == 99) {      c = 99;      if (footer) {            footer.style.display = 'none';            content.style.paddingBottom = 0;      }      if (header) {            header.style.display = 'none';            content.style.paddingTop = 0;      }      if (leftbar) {            leftbar.style.display = 'none';            content.style.paddingLeft = 0;      }      if (rightbar) {            rightbar.style.display = 'none';            content.style.paddingRight = 0;      }    } else if (display == "inline") {      if (footer) {            footer.style.display = display;            content.style.paddingBottom = (footer.offsetHeight + 4) + "px";      }      if (header) {            header.style.display = display;            content.style.paddingTop = (header.offsetHeight + 4) + "px";      }      if (leftbar) {            leftbar.style.display = display;            content.style.paddingLeft = (leftbar.offsetWidth + 4) + "px";      }      if (rightbar) {            rightbar.style.display = display;            content.style.paddingRight = (rightbar.offsetWidth + 4) + "px";      }    }    if (c < 20) {       waitForPageRender();    }  }</script>
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .jumbotron {
+        background-color: #ffffff; /* Orange */
+        color: #ffffff;
+        text-align: center;
+        }
+        .logo-small {
+        color: #f4511e;
+        font-size: 50px;
+        text-align: center;
+        }
+        .logo {
+        color: #f4511e;
+        font-size: 200px;
+        text-align: center;
+        }
+        .thumbnail {
+        padding: 0 0 15px 0;
+        border: none;
+        border-radius: 0;  
+        text-align: center;
+        }
+        .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+        .bg-grey {
+        background-color: #f6f6f6;
+        }
+        .jumbotron {
+        background-color: #f4511e;
+        color: #fff;
+        padding: 100px 25px;
+        }                 
+        .container-fluid {
+        padding: 60px 50px;
+        text-align: center;
+        }
+        .carousel-control.right, .carousel-control.left {
+        background-image: none;
+        color: #f4511e;
+        text-align: center;
+        }
+        .carousel-indicators li {
+        border-color: #f4511e;
+        text-align: center;
+        }
+        .carousel-indicators li.active {
+        background-color: #f4511e;
+        text-align: center;
+        }
+        .item h4 {
+        font-size: 19px;
+        line-height: 1.375em;
+        font-weight: 400;
+        font-style: italic;
+        margin: 70px 0;
+        text-align: center;
+        }
+        .item span {
+        font-style: normal;
+        text-align: center;
+        } 
+        .logo {
+        font-size: 200px;
+        text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+        .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+        text-align: center;
+        }
+        }
+        .navbar {
+        margin-bottom: 0;
+        background-color: #f4511e;
+        z-index: 9999;
+        border: 0;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        letter-spacing: 4px;
+        border-radius: 0;
+        }
+        .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+        }
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #f4511e !important;
+        background-color: #fff !important;
+        }
+        .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+        }
+    </style>
+    <body>
+        <nav class="navbar navbar-default" id="navbar-example" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#profile">Profile</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#abilities">Abilities</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <div class="jumbotron text-center">
+            <h1>Jeremy W. Raupp</h1>
+            <p></p>
+        </div>
+        <div class="container-fluid">
+            <h2>About Me</h2>
+            <h4>I am a web developer with knowledge of front-end and database techniques and 
+                Amazon Web Services Certified. 
+            </h4>
+        </div>
+        <div class="col-md-4">
+        <h3>Details</h3>
+        <p>
+            <strong>Name:</strong><br />
+            Jeremy Raupp<br />
+            <strong>Age:</strong><br />
+            25 years<br />
+            <strong>Location:</strong><br />
+            Sarasota, Florida, United States of America, Earth		
+        </p>
+        <div class="container-fluid bg-grey">
+            <h2>xxx</h2>
+            <h4><strong>xxx</strong>xxx</h4>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>xxx</h2>
+                    <h4>xxx</h4>
+                    <p>xxx</p>
+                    <button class="btn btn-default btn-lg">Get in Touch</button>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-signal logo"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-globe logo"></span>
+                </div>
+                <div class="col-sm-8">
+                    <h2>xxx</h2>
+                    <h4><strong>xxx</strong> xxx</h4>
+                    <p><strong>xxx</strong>xxx</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <h2>SERVICES</h2>
+            <h4>What I offer</h4>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-off"></span>
+                    <h4>POWER</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-heart"></span>
+                    <h4>LOVE</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-lock"></span>
+                    <h4>JOB DONE</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-leaf"></span>
+                    <h4>GREEN</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-certificate"></span>
+                    <h4>CERTIFIED</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-wrench"></span>
+                    <h4>HARD WORK</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center bg-grey">
+        <h2>Portfolio</h2>
+        <h4>What we have created</h4>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="paris.jpg" alt="Paris">
+                    <p><strong>Paris</strong></p>
+                    <p>Yes, we built Paris</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="newyork.jpg" alt="New York">
+                    <p><strong>New York</strong></p>
+                    <p>We built New York</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="sanfran.jpg" alt="San Francisco">
+                    <p><strong>San Francisco</strong></p>
+                    <p>Yes, San Fran is ours</p>
+                </div>
+            </div>
+        </div>
+        <h2>WHAT EMPLOYERS HAVE SAID</h2>
+        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <h4>"His outgoing personality, positive attitude and team spirit allow him
+                        to develop good working and friendly relationships..."<br
+                        ><span style="font-style:normal;">Wang ZhaoHui, Dean of Foreign Langauges at
+                        Chengdu Textile College</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+                </div>
+                <div class="item">
+                    <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="container-fluid bg-grey">
+            <h2 class="text-center">Contact</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p>Contact me and I'll get back to you as soon as possible.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Sarasota, Florida</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> (941) 387 - 6542</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> jeremyraupp@gmail.com</p>
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
